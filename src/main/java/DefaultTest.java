@@ -27,6 +27,7 @@ public class DefaultTest implements Test1,Test2{
     }
 
     public static void main(String[] args) {
+        //ok let's add a comment inside main
         DefaultTest d = new DefaultTest();
         List<Integer> l = Arrays.asList(1,2,3,4,5);
         System.out.println(l.stream().mapToInt(x-> x).sum());
