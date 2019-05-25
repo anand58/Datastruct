@@ -17,6 +17,7 @@ interface Test2{
 
 public class DefaultTest implements Test1,Test2{
 
+    //this is a test
     @Override
     public void print1(){
         System.out.println("Inside main class");
