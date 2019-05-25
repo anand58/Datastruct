@@ -17,7 +17,7 @@ interface Test2{
 
 public class DefaultTest implements Test1,Test2{
     
-    // this will help us understand the concepts clearly
+    //this is anohter test
 
     @Override
     public void print1(){
