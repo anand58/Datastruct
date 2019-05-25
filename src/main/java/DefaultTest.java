@@ -36,7 +36,7 @@ public class DefaultTest implements Test1,Test2{
         //System.out.println(c);
     }
 
-    
+    //kya hai
     }
 
 
