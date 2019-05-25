@@ -16,15 +16,18 @@ interface Test2{
 }
 
 public class DefaultTest implements Test1,Test2{
+    
+    //this is anohter test
+    // let's add two more lines to be sure
+    // this will help us understand the concepts clearly
 
     @Override
     public void print1(){
         System.out.println("Inside main class");
     }
 
-
     public static void main(String[] args) {
-
+        //ok let's add a comment inside main
         DefaultTest d = new DefaultTest();
         List<Integer> l = Arrays.asList(1,2,3,4,5);
         System.out.println(l.stream().mapToInt(x-> x).sum());
