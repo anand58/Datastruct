@@ -19,7 +19,7 @@ public class DefaultTest implements Test1,Test2{
     
     //this is anohter test
     //shondo
-
+    //just added 
     @Override
     public void print1(){
         System.out.println("Inside main class");
