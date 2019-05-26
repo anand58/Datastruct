@@ -17,7 +17,7 @@ interface Test2{
 
 public class DefaultTest implements Test1,Test2{
     
-    //this is mainCheckin
+    //this is master
     //shondo
     //just added 
     @Override
